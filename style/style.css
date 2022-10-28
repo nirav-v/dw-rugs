@@ -41,6 +41,7 @@ nav {
 }
 
 .rug-pic{
-  max-width:300px;
-  max-height: 200px;
+  max-width:500px;
+  max-height: 300px;
+  flex: 25%;
 }
