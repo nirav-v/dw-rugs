@@ -15,6 +15,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <link href="style/links-grid.css" rel="stylesheet" />
     <link href="style/style.css" rel="stylesheet" />
     <title>Document</title>
   </head>
@@ -48,7 +50,7 @@
     <h1 id="welcome">Welcome</h1>
 
     <!-- Pages Grid -->
-    <div
+    <!-- <div
       class="links-grid d-flex justify-content-center container text-center grid"
     >
       <div class="row">
@@ -62,11 +64,11 @@
             <div class="image-text">About Me</div>
           </a>
         </div>
-        <div class="col">
+        <div class="col gallery">
           <a href="pages/gallery.html">
             <img
               class="image-link"
-              src="./images/placeholder.png"
+              src="./images/kaytranada.jpg"
               alt="Gallery"
             />
             <div class="image-text">Gallery</div>
@@ -95,7 +97,22 @@
           </a>
         </div>
       </div>
+    </div> -->
+    <div class="row">
+      <div class="column">
+        <a href="pages/about.html"> <img src="images/coolDom.jpg" /></a>
+      </div>
+      <div class="column">
+        <a href="pages/gallery.html"><img src="images/kaytranada.jpg" /></a>
+      </div>
+      <div class="column">
+        <a href="pages/videos.html"><img src="images/dwYoutube.jpg" /></a>
+      </div>
+      <div class="column">
+        <a href="pages/contact.html"><img src="images/tetons.jpg" /></a>
+      </div>
     </div>
+
     <!-- End Grid -->
     <!-- video player -->
     <div class="videos">
@@ -107,6 +124,7 @@
     </div>
     <!-- end player -->
     <!-- link js files -->
+    <script src="./js/rugPics.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
