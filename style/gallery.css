@@ -1,0 +1,11 @@
+.rug-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rug-grid img{
+    flex: 0 0 200px;
+}
+
+
