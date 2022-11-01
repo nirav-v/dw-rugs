@@ -12,6 +12,7 @@ section {
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
   /* margin-top: 2%; */  
+  max-width: 100%;
 }
 
 #welcome {
