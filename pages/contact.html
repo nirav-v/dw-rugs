@@ -52,11 +52,23 @@
       <br />
       <p>Social:</p>
     </section>
-
+    <!-- Contact Form -->
     <section class="embedded-email">
       <p>Send an Email</p>
-      <form class="email-form">
-        <input type="text" placeholder="your name" />
+      <form
+        action="https://formsubmit.co/niravvenkatesan@gmail.com"
+        method="POST"
+        class="email-form"
+      >
+        <input type="text" placeholder="your name" required />
+        <input type="email" placeholder="your email address" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://nirav-v.github.io/dw-rugs/pages/thanks.html"
+        />
+        <input type="text" placeholder="your message" />
+        <button type="submit">Send Email</button>
       </form>
     </section>
   </body>
