@@ -3,12 +3,21 @@ nav {
   background-color: #e4edee;
 }
 
-.videos{
-    display: flex;
-    justify-content: center;
-    margin: 4%;
+.navbar-brand {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
 }
 
+header{
+  font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+}
 
 #welcome {
   margin-top: 5%;
@@ -16,14 +25,14 @@ nav {
   text-align: center;
 }
 
-iframe{
+iframe {
   border-radius: 20px;
 }
 
-.gallery{
-    background-image: url('../images/kaytranada.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.gallery {
+  background-image: url("../images/kaytranada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .image-text {
@@ -32,8 +41,8 @@ iframe{
   left: 40%;
 }
 
-.rug-pic{
-  max-width:500px;
+.rug-pic {
+  max-width: 500px;
   max-height: 300px;
   flex: 25%;
 }
