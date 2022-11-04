@@ -16,6 +16,8 @@
       crossorigin="anonymous"
     ></script>
     <link href="../style/style.css" rel="stylesheet" />
+    <link href="../style/contact.css" rel="stylesheet" />
+
     <title>Contact</title>
   </head>
   <body>
@@ -46,22 +48,28 @@
     </nav>
     <!-- End NavBar -->
     <section class="contact-info">
-      <p>Email:</p>
+      <p>Email: dominicwindey22@gmail.com</p>
       <br />
-      <p>Phone:</p>
+      <p>Phone: +1 (307) 699-3104</p>
       <br />
-      <p>Social:</p>
+      <p>Instagram: @dw.rugs and @dominicwindey</p>
     </section>
     <!-- Contact Form -->
-    <section class="embedded-email">
-      <p>Send an Email</p>
+    <section class="email-form">
+      <header>Send a quick email with the form below</header>
       <form
         action="https://formsubmit.co/dominicwindey22@gmail.com"
         method="POST"
         class="email-form"
       >
+        <label for="name">Name:</label><br />
         <input type="text" placeholder="your name" required />
+        <br />
+
+        <label for="email">Email address:</label><br />
         <input type="email" placeholder="your email address" />
+        <br />
+        <label for="message">Message:</label><br />
         <input
           type="hidden"
           name="_next"
@@ -71,8 +79,11 @@
           type="text"
           name="message"
           placeholder="write your message here"
+          id="message"
         />
-        <button type="submit">Send Email</button>
+        <br />
+        <!-- <button id="submit-btn" type="submit">Send</button> -->
+        <button type="submit" class="btn btn-primary my-1">Submit</button>
       </form>
     </section>
   </body>
