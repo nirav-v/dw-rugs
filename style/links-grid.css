@@ -17,9 +17,7 @@ section {
 }
 
 #welcome {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+text-align: center;
   padding: 60px;
   color: #13293d;
 }
@@ -43,8 +41,13 @@ a{
 .square header {
   border-radius: 20px 20px 0 0;
   padding: 10px;
-  background: #13293d;
+  background: black;
   color: #fff;
+}
+
+.square:hover{
+  transform: rotate(5deg) scale(1.1, 1.1);
+
 }
 
 .square img {
