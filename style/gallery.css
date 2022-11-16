@@ -10,6 +10,14 @@ background-color: black;
 
 .rug-grid img{
     flex: 0 0;
+    width: 100%;
 }
 
 
+
+@media screen and (max-width: 500px) {
+    .rug-container {
+            width: 50%;
+            height: 100%;
+        }
+}
