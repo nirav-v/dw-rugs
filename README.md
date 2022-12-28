@@ -1,6 +1,6 @@
 # dw-rugs
 
-[deployed site](https://nirav-v.github.io/dw-rugs/)
+[deployed site](https://dwrugs.com/)
 
 ## Landing page I built for my close friend's custom rug making business.
 
